@@ -1,0 +1,9 @@
+body{
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+h1{
+    color: rgba(106, 157, 224, 0.938);
+    font-family: Garamond;
+}
