@@ -66,13 +66,7 @@ a:hover {
 #dragon2{
     transform: scaleX(-1);
 }
-footer{
-    position: relative;
-}
-#eyes {
-    width: 10%;
-    display: block;
-}
+
 footer p{
     position: absolute;
     bottom: 0px;
