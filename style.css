@@ -4,17 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-    text-align: center;
-    background-color: hsl(0, 0%, 0%);
-    padding: 3rem;
-    margin: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 body {
     margin: 0 auto;
     background-image: url(https://64.media.tumblr.com/22a4c98f65d1241fde7be0299e3289e7/49f0582d0d0f904d-fc/s1280x1920/82917628a77713b8deab6fe97e5e16079a1aa6be.png);
@@ -22,12 +11,18 @@ body {
     text-align: center;
 }
 
-h1,
-h2 {
+header {
+
     color: rgba(225, 178, 22, 0.938);
     font-family: 'Luminari';
     text-shadow: 2px 2px rgba(12, 83, 10, 0.67);
-    
+    background-color: hsl(0, 0%, 0%);
+    padding: 3rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #torch_l {
@@ -43,18 +38,47 @@ h2 {
     padding: 1rem;
 }
 
+main h1,
+h2 {
+    color: rgba(225, 178, 22, 0.938);
+    font-family: 'Luminari';
+    text-shadow: 2px 2px rgba(12, 83, 10, 0.67);
+    background-color: hsl(0, 0%, 0%);
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#perchance {
+    font-size: small;
+}
+
 p {
     font-family: papyrus;
     color: red;
     font-size: larger;
 }
-
-#perchance {
-    font-size: x-small;
+a:link, a:visited{
+    color: gold;
 }
+a:hover {
+    color: red;
+}
+#dragon2{
+    transform: scaleX(-1);
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+#eyes {
+    display: block;
+    max-width: 15rem;
 
-#eyes{
-    margin: 0 auto;
-    display: blocks;
-    width: 10%;   
+}
+footer p{
+    position: absolute;
+    bottom: 0px;
+    right: 1rem;
+    
 }
