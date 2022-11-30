@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #fffff9;
+}
+
+h3 {
+  color: tomato;
+  /* you really do love tomato huh */
+}
+
+p {
+  line-height: 1.75;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+footer {
+  text-align: center;
+}

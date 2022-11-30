@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .animation-container {
+    margin: auto;
+  }
+  #loading {
+    width: 75vw;
+    margin: 4rem auto;
+  }
+  
+  #bun {
+    height: 6rem;
+    width: 10vw;
+    background-image: linear-gradient(#d48423, #7b4d16);
+    border-radius: 12rem;
+    transform: translateY(-2rem);
+  
+    animation-name: grow-width;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forward;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  #dog {
+    height: 4rem;
+    width: 10vw;
+    background-image: linear-gradient(#da2222, #921c1c);
+    border-radius: 12rem;
+    animation-name: grow-width;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: forward;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes grow-width {
+    0% {
+      width: 10vw;
+    }
+  
+    50% {
+      width: 50vw;
+    }
+  
+    100% {
+      width: 70vw;
+    }
+  }
+  
+  #mustard {
+    height: 0.5rem;
+  
+    border-radius: 20px;
+    background-color: #e6bf0f;
+    position: relative;
+    transform: translate(2rem, -9rem);
+    animation: grow-mustard;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-direction: forward;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes grow-mustard {
+    0% {
+      width: 1.5rem;
+      opacity: 0;
+    }
+  
+    25% {
+      width: 10rem;
+      opacity: 0;
+    }
+    90% {
+      width: 30rem;
+      opacity: 1;
+    }
+    100% {
+      width: 65vw;
+      opacity: 1;
+    }
+  }
+  /*below is buffering animation*/
+  
+  #waiting {
+    height: 20rem;
+    width: 20rem;
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  #top-bbun {
+    height: 8rem;
+    width: 20rem;
+    border-radius: 12px;
+    background-image: linear-gradient(#d48423, #7b4d16);
+    position: relative;
+  }
+  #lettuce {
+    height: 1rem;
+    width: 20rem;
+    background-color: green;
+    position: relative;
+  }
+  #tomato {
+    height: 2rem;
+    width: 20rem;
+    background-color: red;
+    position: relative;
+  }
+  #cheese {
+    height: 1rem;
+    width: 20rem;
+    background-color: yellow;
+    position: relative;
+  }
+  #patty {
+    height: 3rem;
+    width: 20rem;
+    background-color: maroon;
+    position: relative;
+  }
+  #bottom-bbun {
+    height: 5rem;
+    width: 20rem;
+    border-radius: 12px;
+    background-image: linear-gradient(#d48423, #7b4d16);
+    position: relative;
+  }
+  

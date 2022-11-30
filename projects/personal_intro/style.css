@@ -1,0 +1,36 @@
+body {
+    font-family: gillsans;
+    background-color: cyan;
+    background-image: url(https://web.archive.org/web/20090730183140/http://hk.geocities.com/chauyaucho/background.gif);
+    background-size: contain;
+  }
+  
+  h1 {
+    color: rgb(51,224,250);
+    border: 5px outset blue;
+    background-color: white;
+    padding: 40px;
+    width: 38%;
+    margin: auto;
+  }
+  
+  h2 {
+    color: rgb(51,224,250);
+    border: 5px outset blue;
+    background-color: white;
+    padding: 40px;
+    width: 25%;
+    margin: auto;
+  }
+  
+  p{
+    font-size: 20px;
+    color: magenta
+  }
+  li{
+    color: green;
+  }
+  
+  img{
+    max-width: 500px;
+  }

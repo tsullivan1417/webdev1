@@ -65,10 +65,11 @@ a:hover {
 }
 #dragon2{
     transform: scaleX(-1);
+    margin-bottom: 1rem;
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0px;
     font-size: 1rem;
 }
