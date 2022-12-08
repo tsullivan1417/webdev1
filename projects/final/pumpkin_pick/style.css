@@ -6,12 +6,14 @@
 
 header {
     font-size: 2vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h2 {
     font-size: 1vw;
+    color:darkmagenta;
 }
-
 
 img, a{
     width: 100%;
