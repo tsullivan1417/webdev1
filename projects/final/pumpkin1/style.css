@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2vw;
+}
+p{
+    font-size: 1vw;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color:darkorange;
+}
