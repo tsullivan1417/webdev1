@@ -9,7 +9,6 @@ html{
     background-size: cover;
 }
 #strid{
-
     max-width: 25%;
     margin-left: 0;
 }
@@ -17,7 +16,7 @@ html{
 h1, h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#ffff;
-    font-size: 10rem;
+    font-size: 2vw;
     padding-top: 1rem;
 }
 .header{
