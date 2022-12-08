@@ -18,6 +18,9 @@ h1{
     color:black;
     font-size: 2vw;
     padding-top: 1rem;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 30%;
 }
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -31,13 +34,16 @@ h2{
       font-size: 30px;
     }
 }
-.header{
+header{
     display: flex;
     flex-wrap: wrap;
 }
 
-.div-wrapper img {
-    width: 100%;
+#sign{
+    position: fixed;
     left: 0;
     bottom: 0;
+}
+#sign img{
+    width: 100%;
 }
