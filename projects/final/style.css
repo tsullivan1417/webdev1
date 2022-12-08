@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: url("/projects/final/images/pexels-james-wheeler-1486976.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+#strid{
+
+    max-width: 25%;
+    margin-left: 0;
+}
+
+h1, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffff;
+    font-size: 10rem;
+    padding-top: 1rem;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-wrapper img {
+   
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
