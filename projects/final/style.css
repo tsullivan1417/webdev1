@@ -9,7 +9,7 @@ html{
     background-size: cover;
 }
 #strid{
-    max-width: 25%;
+    max-width: 40%;
     margin-left: 0;
 }
 
@@ -19,13 +19,17 @@ h1, h2{
     font-size: 2vw;
     padding-top: 1rem;
 }
+@media screen and (max-width: 450px) {
+    div.example {
+      font-size: 30px;
+    }
+}
 .header{
     display: flex;
     flex-wrap: wrap;
 }
 
 .div-wrapper img {
-   
     width: 100%;
     left: 0;
     bottom: 0;
