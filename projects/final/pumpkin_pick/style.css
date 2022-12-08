@@ -8,14 +8,17 @@ header {
     font-size: 2vw;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 h2 {
     font-size: 1vw;
     color:darkmagenta;
 }
-
-img, a{
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
     width: 100%;
-    max-width: 20vw;
 }
