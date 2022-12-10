@@ -13,12 +13,17 @@ header {
 
 h2 {
     font-size: 1vw;
-    color:darkmagenta;
+    color: darkmagenta;
 }
-div{
+
+div {
     display: flex;
     flex-wrap: wrap;
 }
-img{
+
+img {
     width: 100%;
+}
+main{
+    background-image: url(https://web.archive.org/web/20090821162911/http://geocities.com/MadisonAvenue/Suite/6943/leaffall.gif);
 }
