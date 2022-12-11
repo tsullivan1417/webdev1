@@ -3,27 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    font-size: 8rem;
+
+body {
+    background-image: url("/projects/final/images/seeds.png");
+    background-size: 10%;
 }
-div p{
-    font-size: 5rem;
-}
-img{
+
+div {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 30%;
+    align-items: center;
+    gap: 1rem;
 }
-div{
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-footer{
-    color:darkorange;
+
+h1 {
     font-size: 3rem;
-    position: relative;
+    background-color: orange;
+}
+
+main p {
+    font-size: 2rem;
+    background-color: gold;
+}
+#work{
+    font-size: 4rem;
+    background-color: red;
+}
+
+
+footer {
+    color: darkorange;
+    background-color: blueviolet;
+    font-size: 1rem;
+    position: absolute;
     bottom: 0;
-    left: 0;
+    
 }
