@@ -15,6 +15,7 @@ div {
     transform: translate(0, -50%);
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
 }
@@ -28,7 +29,8 @@ main p {
     font-size: 2rem;
     background-color: gold;
 }
-#work{
+
+#work {
     font-size: 4rem;
     background-color: red;
 }
@@ -40,5 +42,5 @@ footer {
     font-size: 1rem;
     position: absolute;
     bottom: 0;
-    
+
 }
