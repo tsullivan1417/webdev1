@@ -37,15 +37,14 @@ h2 {
     }
 }
 
-header {
+div {
     display: flex;
     flex-wrap: wrap;
 }
 
 #sign {
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    position: sticky;
+    transform: translate(4rem, 20rem);
 }
 
 #sign img {
